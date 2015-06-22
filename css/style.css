@@ -444,9 +444,11 @@ div {
 .top-navigation {
   background-color: #fff;
   position: fixed;
+
 }
 .top-navigation > .content {
   height: 4.375rem;
+  width: 68rem;
 }
 
 .top-navigation .links {
@@ -481,7 +483,7 @@ html {
 
 }
 .content {
-  padding: 0px 0.938rem;
+  padding: 0px 4rem;
   margin: 0 auto;
   min-width: 37.5rem;
 }
@@ -496,15 +498,15 @@ html {
   overflow: auto;
 }
 
-
 .introduction h1,
 .introduction h3 {
   color: white;
   text-align: center;
-  font-weight: 17.5rem;
+  font-weight: 300;
 }
 
 .introduction h1 {
+  margin: -0.33em 0;
   margin-top: 17.5rem;
   font-size: 3.125rem;
 }
@@ -530,6 +532,23 @@ html {
 
 .big-button:hover{
   background-color: #cf3d0e;
+}
+
+/* Cases Section */
+.cases h1{
+  text-align: center;
+  margin-top: 9.25rem;
+  font-size: 2.75rem;
+  font-weight: 300;
+}
+
+.cases .devices {
+  width: 33.3333333%;
+  display: inline-block;
+  /* styles to assist */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
 }
 
 
