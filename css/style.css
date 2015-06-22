@@ -443,19 +443,19 @@ div {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
 }
 .top-navigation > .content {
-  width: 970px;
-  height: 70px;
-  margin: 0 auto;
+  height: 4.375rem;
 }
 
 .top-navigation .links {
   float: right;
   font-family: 'Roboto', sans-serif;
   color: #838994;
-  margin-top: 25px;
+  margin-top: 1.7rem;
   letter-spacing: 0.03em;
+  font-size: 1.04rem;
 }
 
 .navigation li: hover{
@@ -477,16 +477,60 @@ html {
 
 .top-navigation .links li {
   display: inline-block;
-  margin-left: 12px;
+  margin-left: 1.563rem;
 
 }
 .content {
-  padding: 0px 14px;
+  padding: 0px 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
+
+/* Introduction Section */
+.introduction {
+  background-image: url('http://i280.photobucket.com/albums/kk162/ronaldjj80/first-background_zpsiaytsd1f.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
 }
 
 
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 17.5rem;
+}
 
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
 
+.introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+
+.big-button {
+  text-shadow: none;
+  border-style:  none;
+  border-radius: none;
+  padding: 16px 26px;
+  line-height: 1.33;
+  width: 9.6rem;
+  background-color: #F15A29;
+  font-size: 1.125rem;
+  color: white;
+  display: block;
+  margin: 0 auto;
+ }
+
+.big-button:hover{
+  background-color: #cf3d0e;
+}
 
 
 
