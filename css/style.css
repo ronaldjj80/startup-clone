@@ -444,6 +444,8 @@ div {
 .top-navigation {
   background-color: #fff;
   position: fixed;
+  width: 100%;
+  z-index: 9999;
 
 }
 .top-navigation > .content {
@@ -482,6 +484,7 @@ html {
   margin-left: 1.563rem;
 
 }
+.cases,
 .content {
   padding: 0px 4rem;
   margin: 0 auto;
@@ -535,20 +538,34 @@ html {
 }
 
 /* Cases Section */
-.cases h1{
-  text-align: center;
-  margin-top: 9.25rem;
+
+.devices  {
+  width: 33.3333333%;
+  display: inline-block;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 16em;
+  margin-top: 1rem;
+}
+
+.cases h2{
   font-size: 2.75rem;
+  margin-top: 9rem;
+  margin-left: 7rem;
   font-weight: 300;
 }
 
-.cases .devices {
-  width: 33.3333333%;
-  display: inline-block;
-  /* styles to assist */
-  border: 1px solid black;
-  box-sizing: border-box;
-  height: 4em;
+.devices img{
+  width: 7.938em;
+  height: 7.938em;
+  margin-left: 6rem;
+}
+
+.devices h3{
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-align: center;
 }
 
 
