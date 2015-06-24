@@ -434,12 +434,10 @@ th {
 }
 
 body {
-  background-color: LightGray;
+  background-color: #fff;
 }
 
-div {
-  border: 1px solid Chocolate;
-}
+
 
 .top-navigation {
   background-color: #fff;
@@ -509,7 +507,7 @@ html {
 }
 
 .introduction h1 {
-  margin: -0.33em 0;
+  margin: 0.4em 0;
   margin-top: 17.5rem;
   font-size: 3.125rem;
 }
@@ -522,10 +520,10 @@ html {
 .big-button {
   text-shadow: none;
   border-style:  none;
-  border-radius: none;
-  padding: 16px 26px;
+  border-radius: 0.3em;
+  padding: 1rem 1.5rem;
   line-height: 1.33;
-  width: 9.6rem;
+  width: 9.688rem;
   background-color: #F15A29;
   font-size: 1.125rem;
   color: white;
@@ -543,15 +541,18 @@ html {
   width: 33.3333333%;
   display: inline-block;
   /* styles to assist with debugging */
-  border: 1px solid black;
   box-sizing: border-box;
   height: 16em;
   margin-top: 1rem;
 }
 
+.cases {
+  padding-bottom: 5rem;
+}
+
 .cases h2{
   font-size: 2.75rem;
-  margin-top: 9rem;
+  margin-top: 8rem;
   margin-left: 7rem;
   font-weight: 300;
 }
@@ -564,10 +565,63 @@ html {
 
 .devices h3{
   font-size: 1.75rem;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
 }
 
+/* Footer */
+.social {
+  text-align: center;
+  padding-bottom: 9.375rem;
+}
+.social .icons > li{
+  border-radius: 1.25rem;
+  border: 1px solid #eaebec;
+  width: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  padding: 0.625rem 0;
+  
+}
+
+.social .icons{
+  margin-left: -2rem;
+  margin-top: -7rem;
+}
+
+.social .icons li:hover{
+  cursor: pointer;
+}
+
+
+.social .content > h4{
+text-align: center;
+margin-bottom: 4rem;
+font-weight: 400;
+font-size: 1em;
+padding-bottom: 3rem;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+.fa-facebook {
+  color: #4c66a4;
+}
+.fa-instagram{
+  color: #3f729b;
+}
+
+.social span{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+  margin-left: 1rem;
+}
+
+hr {
+  margin-top: 4rem;
+}
 
 
 
