@@ -491,7 +491,7 @@ html {
 
 /* Introduction Section */
 .introduction {
-  background-image: url('http://i280.photobucket.com/albums/kk162/ronaldjj80/first-background_zpsiaytsd1f.jpg');
+  background-image: url('../images/first-background.jpeg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
